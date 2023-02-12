@@ -98,8 +98,10 @@ class MainActivity : AppCompatActivity() {
         btn2 = findViewById(R.id.button1)
         btn3 = findViewById(R.id.button2)
         btn4 = findViewById(R.id.button3)
+
         fillRounds()
         updateUI()
+
         btn1.setOnClickListener { processRound(1) }
         btn2.setOnClickListener { processRound(2) }
         btn3.setOnClickListener { processRound(3) }
